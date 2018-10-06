@@ -1,0 +1,79 @@
+/*$color1: rgba(36, 123, 160, 1);
+$color2: rgba(112, 193, 179, 1);
+$color3: rgba(178, 219, 191, 1);
+$color4: rgba(243, 255, 189, 1);
+$color5: rgba(255, 22, 84, 1);*/
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  max-width: 500px;
+  font-size: 1.4em;
+  background-color: rgba(178, 219, 191, 1);
+
+}
+
+.App{
+  margin: auto;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+
+input[type='checkbox']{
+  display: inline;
+  width: auto;
+}
+
+.done{
+  text-decoration: line-through;
+  color: lightgrey;
+}
+
+li{
+  list-style: none;
+}
+
+button{
+  background-color: #70C1B3;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  margin: 10px 0;
+}
+.btn-warn{
+  background-color: rgba(255, 22, 84, 1);
+  border-radius: 10px;
+  font-size: 0.5;
+}
+
+.todoList{
+  display: flex;
+  flex-direction: column;
+}
+
+.listItem{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center ;
+}
+
+form{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center
+
+}
+input{
+  border-radius: 5px;
+  padding: 10px 50px;
+  border: 1px solid grey;
+  text-align: center;
+}
